@@ -1,0 +1,53 @@
+.allum {
+	background-color:white;
+	width:400px;
+	margin: 0 auto;
+	
+	}
+	
+.bild {
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	background-image: url('https://66.media.tumblr.com/9896af2cfdc54174bac03baf962aaacf/tumblr_oa4ea3Lina1u1tj05o1_540.gif');
+	height:200px;
+	width:400px;
+	transition: all 0.5s ease-in-out;
+}
+	
+.text1 {
+	font-family: 'Over the Rainbow', cursive;
+	text-align: left;
+	margin-bottom:-13px;
+	
+}
+
+.text2 {
+	font-family: 'Over the Rainbow', cursive;
+	text-align: right;
+	margin-top:-14px;
+	
+}
+
+.text3 {
+	text-transform: uppercase;
+	font-size: 8px;
+	text-align:left;
+}
+
+.text4 {
+	text-transform: uppercase;
+	font-size: 8px;
+	text-align:right;
+}
+
+.bild:hover  {
+	opacity:1;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	background-image: url('https://66.media.tumblr.com/9896af2cfdc54174bac03baf962aaacf/tumblr_oa4ea3Lina1u1tj05o1_540.gif');
+	height:400px;
+	width:540px;
+	transition: all 0.5s ease-in-out;
+	-webkit-filter: grayscale(50%);
+}
+
